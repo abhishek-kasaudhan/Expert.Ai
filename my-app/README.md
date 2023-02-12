@@ -32,6 +32,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deployed on Netify
 
-check out the link :- https://expert-ai-project-url.netlify.app   (Api is throwing 426 status code when i deployed it on netify because of cors error,please add ['Access-Control-Allow-Origin'] = '*'.It was working fine in my local but when i deployed it on netify it is showing cors error)
+check out the link :- https://expert-ai-application-url.netlify.app   (Api is throwing 426 status code when i deployed it on netify because of cors error,please add ['Access-Control-Allow-Origin'] = '*'.It was working fine in my local but when i deployed it on netify it is showing cors error)
 
 # ExpertAi-Frontend-project
