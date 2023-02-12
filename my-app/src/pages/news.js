@@ -12,12 +12,7 @@ const router = useRouter()
 
 const fetchData = async () => {
     const response = await axios.get(
-    'https://newsapi.org/v2/top-headlines?country=us&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b',{
-      headers: {
-        Origin: window.location.origin,
-        'cache-control': 'no-cache',
-      },
-    }
+    'https://newsapi.org/v2/top-headlines?country=us&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b'
     )
     setNews(response.data.articles)
     dispatch({ type: 'UPDATE_SEARCH_RESULTS', searchResults: response.data.articles })
@@ -25,12 +20,8 @@ const fetchData = async () => {
 
 const searchData = async () => {
     const response = await axios.get(
-     `https://newsapi.org/v2/everything?q=${searchQuery}&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b`,{
-      headers: {
-        Origin: window.location.origin,
-        'cache-control': 'no-cache',
-      },
-    }
+     `https://newsapi.org/v2/everything?q=${searchQuery}&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b`
+    
       )
     setNews(response.data.articles)
      console.log(response.data.articles)
