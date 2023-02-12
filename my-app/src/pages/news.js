@@ -10,7 +10,7 @@ const searchResults = useSelector(state => state.searchResults)
 const dispatch = useDispatch()
 const router = useRouter()
 
-const fetchData = async () => {
+async function fetchData(){
     const response = await axios.get(
     'https://newsapi.org/v2/top-headlines?country=us&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b',{ withCredentials: false }
     )
@@ -18,7 +18,7 @@ const fetchData = async () => {
     dispatch({ type: 'UPDATE_SEARCH_RESULTS', searchResults: response.data.articles })
     }
 
-const searchData = async () => {
+async function searchData(){
     const response = await axios.get(
      `https://newsapi.org/v2/everything?q=${searchQuery}&apiKey=671eacadabdf4b4aa6e1a580ee2c8d5b`,{ withCredentials: false }
     
