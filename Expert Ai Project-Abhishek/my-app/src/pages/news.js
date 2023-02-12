@@ -30,7 +30,7 @@ const searchData = async () => {
 useEffect(() => {
     const interval = setInterval(() => {
      fetchData()
-     }, 1000*6);
+     }, 1000*60*60);
      return () => clearInterval(interval);
      }, []);
 
