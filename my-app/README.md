@@ -32,6 +32,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deployed on Netify
 
-check out the attached link 
+check out the link :- https://expertai.netlify.app/
 
 # ExpertAi-Frontend-project
