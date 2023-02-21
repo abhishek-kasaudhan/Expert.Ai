@@ -5,8 +5,8 @@ Project Description-
 - User can search news with some topic (Api-https://newsapi.org/docs/endpoints/everything).
 - When the user clicks on the news, user should be taken to the details page for that particular article.
 
-Deployed on Netlify
+##Deployed on Netlify
 
-check out the link :- https://expert-ai-application-url.netlify.app
+Check out the link :- https://expert-ai-application-url.netlify.app
 
 
